@@ -1,19 +1,19 @@
 * {
     font-family: "Comic Sans MS", serif;
     font-weight: bold;
-    line-break: strict;
 }
 
 .center {
-    height: 100px;
+    /*height: 100px;*/
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5%;
 }
 
 a {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 img {
@@ -21,63 +21,33 @@ img {
     height: auto;
 }
 
+.div1 {background-color: #ffff00;}
+.div2 {background-color: #ff5429;}
+.div3 {background-color: #5eb91e;}
+.div4 {background-color: #81aca6;}
+.div5 {background-color: #ff5429;}
+.div6 {background-color: #729fcf;}
+.div7 {background-color: #ffffa6;}
+.div8 {background-color: #77bc65;}
+.div9 {background-color: #ff7b59;}
+.div10 {background-color: #bf819e;}
+.div11 {background-color: #729fcf;}
+
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-
-@media (min-width: 600px) {
-    .parent { grid-template-columns: repeat(2, 1fr); }
-}
-
-@media (min-width: 900px) {
-    .parent { grid-template-columns: repeat(3, 1fr); }
-}
-
-.div1 {
-    grid-area: 1 / 1 / 2 / 3;
-    background-color: #ffff00;
-}
-.div2 {
-    grid-area: 1 / 3 / 2 / 4;
-    background-color: #ff5429;
-}
-.div3 {
-    grid-area: 1 / 4 / 2 / 5;
-    background-color: #5eb91e;
-}
-.div4 {
-    grid-area: 2 / 1 / 3 / 2;
-    background-color: #81aca6;
-}
-.div5 {
-    grid-area: 2 / 2 / 3 / 3;
-    background-color: #ff5429;
-}
-.div6 {
-    grid-area: 2 / 3 / 3 / 4;
-    background-color: #729fcf;
-}
-.div7 {
-    grid-area: 2 / 4 / 3 / 5;
-    background-color: #ffffa6;
-}
-.div8 {
-    grid-area: 3 / 1 / 4 / 3;
-    background-color: #77bc65;
-}
-.div9 {
-    grid-area: 3 / 3 / 4 / 5;
-    background-color: #ff7b59;
-}
-.div10 {
-    grid-area: 4 / 1 / 5 / 3;
-    background-color: #bf819e;
-}
-.div11 {
-    grid-area: 4 / 3 / 5 / 5;
-    background-color: #729fcf;
-}
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 1 / 3 / 2 / 4; }
+.div3 { grid-area: 1 / 4 / 2 / 5; }
+.div4 { grid-area: 2 / 1 / 3 / 2; }
+.div5 { grid-area: 2 / 2 / 3 / 3; }
+.div6 { grid-area: 2 / 3 / 3 / 4; }
+.div7 { grid-area: 2 / 4 / 3 / 5; }
+.div8 { grid-area: 3 / 1 / 4 / 3; }
+.div9 { grid-area: 3 / 3 / 4 / 5; }
+.div10 { grid-area: 4 / 1 / 5 / 3; }
+.div11 { grid-area: 4 / 3 / 5 / 5; }
