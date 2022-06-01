@@ -4,6 +4,10 @@
     font-size: 15px;
 }
 
+.pablo {
+    color: red;
+    }
+
 .center {
     /*height: 100px;*/
     display: flex;
